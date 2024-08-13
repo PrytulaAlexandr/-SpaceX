@@ -1,0 +1,25 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroContent {
+  width: 583px;
+}
+
+.heroContentText {
+  text-align: left;
+  font-family: Rubik;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 118.5px;
+  padding-left: 32px;
+  margin-bottom: 50px;
+}
+
+.heroImage {
+  background-image: url(../../../img/rocket.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

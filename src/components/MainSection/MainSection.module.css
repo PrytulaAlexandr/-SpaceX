@@ -1,0 +1,28 @@
+.mainContainer {
+  background-image: url(/public/img/rocket.gif);
+  border: 1px solid var(--border-color);
+  border-radius: 40px;
+  height: 653px;
+  background-position: -100% 100%;
+}
+
+.footerMainSection {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.sfere {
+  height: 34px;
+  width: 33px;
+  position: relative;
+}
+
+.lineGradient {
+  width: 1191px;
+  height: 6px;
+  background: linear-gradient(to right, var(--font-color-primary), rgba(255, 255, 255, 0));
+}
