@@ -1,0 +1,11 @@
+:root {
+  --primary-font: "Rubik", sans-serif;
+  --font-color-primary: #ffffff;
+  --font-color-secondary: #9f9f9f;
+  --font-color-hover: #000000;
+  --background-color: #000000;
+  --background-hover: #ffffff;
+  --button-border: #FFFFFF;
+  --button-border-hover: #000000;
+  --border-color: #ffffff33;
+}
