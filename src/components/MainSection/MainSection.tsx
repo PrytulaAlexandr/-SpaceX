@@ -9,7 +9,7 @@ const MainSection: React.FC = () => {
       <Navigation />
       <HeroSection />
       <div className={style.footerMainSection}>
-        <img className={style.sfere} src="public/img/sfere.svg" alt="sfere" />
+        <img className={style.sfere} src="img/sfere.svg" alt="sfere" />
         <div className={style.lineGradient}></div>
       </div>
     </div>
