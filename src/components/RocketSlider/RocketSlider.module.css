@@ -94,14 +94,14 @@
 }
 
 .swiperButtonPrev {
-  background-image: url(img/arowRight.png);
+  background-image: url(../img/arowRight.png);
   background-repeat: no-repeat;
   background-color: inherit;
   background-position: center center;
 }
 
 .swiperButtonNext {
-  background-image: url(img/arrowLeft.png);
+  background-image: url(../img/arrowLeft.png);
   background-repeat: no-repeat;
   background-color: inherit;
   background-position: center center;
