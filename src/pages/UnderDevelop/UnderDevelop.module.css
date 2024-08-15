@@ -1,0 +1,31 @@
+.UnderDevelopContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--font-color-primary);
+  background-image: url(../../../public/img/rocket-research-concept-illustration.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 0 auto;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.UnderDevelopTitle {
+  font-size: 49px;
+  margin-bottom: 40px;
+}
+
+.UnderDevelopLink {
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 60px;
+  padding: 8px 16px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
