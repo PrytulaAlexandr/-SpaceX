@@ -5,11 +5,11 @@ const InfoSection: React.FC  = () => {
   const infoSectionCardInfo: { name: string; value: string | number }[] = [
     {
       name: "Total launches",
-      value: 43,
+      value: 46,
     },
     {
       name: "Visits to the ISS",
-      value: 46,
+      value: 42,
     },
     {
       name: "Total reflights",

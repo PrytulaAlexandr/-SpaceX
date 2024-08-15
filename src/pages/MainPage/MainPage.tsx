@@ -1,4 +1,5 @@
 import AboutUsSection from "../../components/AboutUsSection/AboutUsSection";
+import FullWidthSlider from "../../components/FullWidthSlider/FullWidthSlider";
 import InfoSection from "../../components/InfoSection/InfoSection";
 import MainSection from "../../components/MainSection/MainSection";
 import OurRockets from "../../components/OurRockets/OurRockets";
@@ -14,6 +15,7 @@ function MainPage() {
         <AboutUsSection />
         <TeamMembersInfo />
       </div>
+      <FullWidthSlider />
     </div>
   );
 }
