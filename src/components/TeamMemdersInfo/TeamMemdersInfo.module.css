@@ -1,0 +1,105 @@
+.teamSliderContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.leftContainer {
+  width: 427px;
+  height: 551px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.rightContainer{
+  width: 874px;
+  height: 551px;
+}
+
+.headerTitle {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75.84px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.subTitle {
+  text-align: left;
+}
+
+.teamMember {
+  width: 423px;
+  height: 551px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 40px;
+}
+
+.teamImage {
+  width: 423px;
+  height: 423px;
+  border-radius: 40px;
+  border: 1px solid transparent;
+  margin-bottom: 12px;
+}
+.infoTeam {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.teamRole {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: var(--font-color-team);
+}
+
+.teamName {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.navigationContainer{
+  display: flex;
+  gap: 12px;
+}
+
+.prevButton {
+  width: 126px;
+  height: 126px;
+  background-color: #fff;
+  border-radius: 20px;
+  background-image: url(./img/arrowLeftBlack.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-color 0.3s;
+}
+
+.nextButton{
+  width: 126px;
+  height: 126px;
+  background-color: #fff;
+  border-radius: 20px;
+  background-image: url(./img/arowRightBlack.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-color 0.3s;
+}
+
+.prevButton:hover{
+  background-color: var(--button-hover);
+}
+.nextButton:hover{
+  background-color: var(--button-hover);
+}

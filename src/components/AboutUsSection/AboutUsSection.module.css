@@ -1,0 +1,26 @@
+.aboutUsSection {
+  height: 755px;
+  position: relative;
+}
+
+.headerTitle {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75.84px;
+}
+
+.videoWrapper {
+  border-radius: 40px;
+  border: 1px solid var(--border-color);
+  overflow: hidden; 
+  width: 100%;
+  height: 536px;
+}
+
+.iframeWrapper{
+  border-radius: 40px;
+  border: 1px solid transparent;
+}
