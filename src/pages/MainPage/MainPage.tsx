@@ -1,6 +1,8 @@
+import AboutUsSection from "../../components/AboutUsSection/AboutUsSection";
 import InfoSection from "../../components/InfoSection/InfoSection";
 import MainSection from "../../components/MainSection/MainSection";
 import OurRockets from "../../components/OurRockets/OurRockets";
+import TeamMembersInfo from "../../components/TeamMemdersInfo/TeamMemdersInfo";
 
 function MainPage() {
   return (
@@ -9,6 +11,8 @@ function MainPage() {
         <MainSection />
         <OurRockets />
         <InfoSection />
+        <AboutUsSection />
+        <TeamMembersInfo />
       </div>
     </div>
   );

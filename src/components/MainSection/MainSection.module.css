@@ -1,5 +1,5 @@
 .mainContainer {
-  background-image: url(/public/img/rocket.gif);
+  background-image: url(./img/rocket.gif);
   border: 1px solid var(--border-color);
   border-radius: 40px;
   height: 653px;
