@@ -1,15 +1,18 @@
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import MainSection from "./components/MainSection/MainSection";
-import OurRockets from "./components/OurRockets/OurRockets";
+import MainPage from "./pages/MainPage/MainPage";
+import UnderDevelop from "./pages/UnderDevelop/UnderDevelop";
+
 
 function App() {
   return (
-    <div className="app">
-      <div className="container">
-        <MainSection />
-        <OurRockets />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        {/* <Route path="/rockets/:rocketId" element={<RocketPage />} /> */}
+        <Route path="*" element={<UnderDevelop />} />
+      </Routes>
+    </Router>
   );
 }
 
