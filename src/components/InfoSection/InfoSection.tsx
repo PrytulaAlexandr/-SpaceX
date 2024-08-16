@@ -2,7 +2,7 @@ import React from 'react';
 import style from './InfoSection.module.css';
 
 const InfoSection: React.FC  = () => {
-  const infoSectionCardInfo: { name: string; value: string | number }[] = [
+  const cardInfo: { name: string; value: string | number }[] = [
     {
       name: "Total launches",
       value: 46,
@@ -18,10 +18,10 @@ const InfoSection: React.FC  = () => {
   ];
   return (
     <section className={style.infoSection}>
-      {infoSectionCardInfo.map((cardInfo) => (
-        <div key={cardInfo.name} className={style.infoSectionCard}>
-          <span className={style.infoSectionCardValue}>{cardInfo.value}</span>
-          <span className={style.infoSectionCardName}>{cardInfo.name}</span>
+      {cardInfo.map((info) => (
+        <div key={info.name} className={style.infoSectionCard}>
+          <span className={style.infoSectionCardValue}>{info.value}</span>
+          <span className={style.infoSectionCardName}>{info.name}</span>
         </div>
       ))}
     </section>

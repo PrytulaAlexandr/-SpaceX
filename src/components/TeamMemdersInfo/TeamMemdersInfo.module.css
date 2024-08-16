@@ -61,6 +61,7 @@
   line-height: 24px;
   text-align: center;
   color: var(--font-color-team);
+  text-transform: uppercase;
 }
 
 .teamName {
@@ -68,6 +69,7 @@
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .navigationContainer{
