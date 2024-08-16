@@ -9,6 +9,8 @@ body {
   line-height: 24px;
   background-color: var(--background-color);
   color: var(--font-color-primary);
+  overflow-x: hidden;
+
 }
 
 .app {

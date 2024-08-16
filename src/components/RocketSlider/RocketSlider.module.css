@@ -28,6 +28,11 @@
   height: 553px;
   color: var(--font-color-primary);
   margin-bottom: 32px;
+  transition: background-color .5s;
+}
+
+.rocketCard:hover {
+  background-color: var(--button-hover);
 }
 
 .rocketImageContainer {
@@ -125,5 +130,5 @@
 }
 
 .swiperPaginationBulletActive {
-  background-color: white;
+  background-color: #ffffff;
 }
