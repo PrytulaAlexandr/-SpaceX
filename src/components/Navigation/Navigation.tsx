@@ -1,40 +1,41 @@
 import React from "react";
 import style from "./Navigation.module.css";
+import { Link } from "react-router-dom";
 
 const Navigation: React.FC = () => {
   return (
     <header className={style.navigation}>
       <div className={style.logo}>
-        <a href="#logo">logo</a>
+        <Link to="/">logo</Link>
       </div>
       <nav className={style.nav}>
         <ul className={style.navContent}>
           <li>
-            <a className={style.navContentLink} href="#home">
+            <Link className={style.navContentLink} to="/">
               home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={style.navContentLink} href="#about">
+            <Link className={style.navContentLink} to="/about">
               about
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={style.navContentLink} href="#qa">
+            <Link className={style.navContentLink} to="/qa">
               qa
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={style.navContentLink} href="#contact">
+            <Link className={style.navContentLink} to="/contact">
               contact form
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
       <div className={style.contactFormButton}>
-        <a className={style.contactFormButtonLink} href="#contact">
+        <Link className={style.contactFormButtonLink} to="/contact">
           contact form
-        </a>
+        </Link>
       </div>
     </header>
   );
