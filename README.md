@@ -1,8 +1,8 @@
 # SpaceX (Banxso media test task)
 Demo link: [DEMO](https://prytulaalexandr.github.io/-SpaceX/)
 
-The task is to create a simple web application that gets and shows information about the Dragon rocket from SpaceX API and displays it on a page.
-[API](https://api.spacexdata.com/v4/dragons)
+The task is to create a simple web application that gets and shows information about the Dragon rocket from SpaceX [API](https://api.spacexdata.com/v4/dragons) and displays it on a page.
+
 Design - [design](https://www.figma.com/design/JTokTA6Xfcy9Kb62xRBRKv/Test-Junior?node-id=0-1&t=SnDF9hB8vd2wwcbR-0).
 Sliders were implemented using [Swiper](https://swiperjs.com/demos) library.
 
