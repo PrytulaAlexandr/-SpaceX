@@ -20,7 +20,7 @@ Sliders were implemented using [Swiper](https://swiperjs.com/demos) library.
 
 1. Clone the repository
 ```
-https://github.com/kinqbert/banxso-media-test-task.git
+https://github.com/PrytulaAlexandr/-SpaceX
 ```
 
 2. Install dependencies
