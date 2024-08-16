@@ -1,10 +1,47 @@
-# React + TypeScript + Vite
+# SpaceX (Banxso media test task)
+Demo link: [DEMO](https://prytulaalexandr.github.io/-SpaceX/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The task is to create a simple web application that gets and shows information about the Dragon rocket from SpaceX API and displays it on a page.
+[API](https://api.spacexdata.com/v4/dragons)
+Design - [design](https://www.figma.com/design/JTokTA6Xfcy9Kb62xRBRKv/Test-Junior?node-id=0-1&t=SnDF9hB8vd2wwcbR-0).
+Sliders were implemented using [Swiper](https://swiperjs.com/demos) library.
 
-Currently, two official plugins are available:
+# Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React 18.3.1](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) - build tool
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) - CSS modules
+- [Swiper](https://swiperjs.com/demos) - slider library
+- [React Router](https://reactrouter.com/) - routing library
+- [FireBase](https://firebase.google.com/) - Auth
+
+# How to run
+
+1. Clone the repository
+```
+https://github.com/kinqbert/banxso-media-test-task.git
+```
+
+2. Install dependencies
+```
+npm install
+```
+
+3. Run the application
+```
+npm run dev
+```
+
+4. Open the application in the browser
+```
+http://localhost:5173
+```
+
+# Automatic deployment
+
+The project uses GitHub workflows to deploy the application to GitHub Pages automatically. 
+The deployment is triggered when a new commit is pushed to the `main` branch. 
+The deployment workflow can be found in the [.github/workflows](https://github.com/PrytulaAlexandr/-SpaceX/tree/main/.github/workflows) directory.
 
 
